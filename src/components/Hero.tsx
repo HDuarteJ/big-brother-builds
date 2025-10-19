@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-black h-screen relative h-[calc(100vh*1.2)] flex-col items-center justify-center overflow-hidden">
+    <section className="bg-black h-screen relative h-[calc(100vh*1.1)] flex-col items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
