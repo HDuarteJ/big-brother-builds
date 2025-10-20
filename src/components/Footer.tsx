@@ -29,7 +29,7 @@ const Footer = () => {
             <ul className="space-y-2 text-primary-foreground/80">
               <li>Phone: +1 (416) 903-2579</li>
               <li>Email: info@bigbrothercontracting.com</li>
-              <li>Serving the Ontario area</li>
+              <li>Serving The Whole Ontario Province</li>
             </ul>
           </div>
         </div>

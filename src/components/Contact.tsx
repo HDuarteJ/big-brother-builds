@@ -83,7 +83,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-heading font-bold text-primary mb-1">Location</h3>
                   <p className="text-muted-foreground">
-                    Serving Ontario Province
+                    Serving The Whole Ontario Province
                   </p>
                 </div>
               </CardContent>
