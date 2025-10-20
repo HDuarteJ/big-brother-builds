@@ -3,7 +3,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground py-12">
+    <footer className="h-screen bg-primary text-primary-foreground py-12">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -34,7 +34,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center space-x-6 mb-8 text-primary-foreground/80 text-4xl">
+        <div className="flex justify-center space-x-6 pt-80 mb-8 text-primary-foreground/80 text-4xl">
           <a href="https://www.instagram.com/bigbrothercontracting/" target="_blank" rel="noopener noreferrer">
             <BsInstagram />
           </a>
