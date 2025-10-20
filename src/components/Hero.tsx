@@ -45,11 +45,11 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           {/* Logo com Efeito Glassmorphism */}
           <div className="mb-8 inline-block">
-            <div className="bg-white/20 backdrop-blur-md rounded-2xl border border-white/40 shadow-2xl p-6 md:p-8">
+            <div className="bg-white/20 backdrop-blur-md rounded-2xl border border-white/40 shadow-2xl p-4 md:p-4">
               <img 
                 src={logo} 
                 alt="Big Brother Contracting" 
-                className="h-48 md:h-56 w-auto mx-auto"
+                className="h-64 md:h-72 w-auto mx-auto"
               />
             </div>
           </div>
