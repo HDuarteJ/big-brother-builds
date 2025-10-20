@@ -33,12 +33,12 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex items-center justify-center space-x-6 pt-80 mb-8 text-primary-foreground/80 text-4xl">
+        <div className="flex items-center justify-center space-x-6 pt-8 mb-8 text-primary-foreground/80 text-4xl">
               <a href="https://www.instagram.com/bigbrothercontracting/" target="_blank" rel="noopener noreferrer">
-                <BsInstagram />
+                <BsInstagram className='text-orange-400' />
               </a>
               <a href="https://wa.me/14169032579" target="_blank" rel="noopener noreferrer">
-                <BsWhatsapp />
+                <BsWhatsapp className='text-orange-400' />
               </a>
         </div>
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60">
