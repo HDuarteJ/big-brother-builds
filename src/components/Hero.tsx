@@ -79,7 +79,7 @@ const Hero = () => {
               className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 font-heading font-semibold text-lg px-8 py-6"
               asChild
             >
-              <a href="tel:+1234567890">
+              <a href="tel:+1 (416) 903-2579">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Us Now
               </a>

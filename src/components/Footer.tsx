@@ -1,3 +1,6 @@
+import { BsInstagram } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
@@ -25,13 +28,20 @@ const Footer = () => {
           <div>
             <h4 className="font-heading text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>Phone: (123) 456-7890</li>
+              <li>Phone: +1 (416) 903-2579</li>
               <li>Email: info@bigbrothercontracting.com</li>
               <li>Serving the Ontario area</li>
             </ul>
           </div>
         </div>
-        
+        <div className="flex justify-center space-x-6 mb-8 text-primary-foreground/80 text-4xl">
+          <a href="https://www.instagram.com/bigbrothercontracting/" target="_blank" rel="noopener noreferrer">
+            <BsInstagram />
+          </a>
+          <a href="https://wa.me/14169032579" target="_blank" rel="noopener noreferrer">
+            <BsWhatsapp />
+          </a>
+        </div>
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60">
           <p>&copy; {new Date().getFullYear()} Big Brother Contracting. All rights reserved.</p>
         </div>
