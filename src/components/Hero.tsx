@@ -49,7 +49,7 @@ const Hero = () => {
               <img 
                 src={logo} 
                 alt="Big Brother Contracting" 
-                className="h-48 md:h-80 w-auto mx-auto"
+                className="h-48 md:h-56 w-auto mx-auto"
               />
             </div>
           </div>
