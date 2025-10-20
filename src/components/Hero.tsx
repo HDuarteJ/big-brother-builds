@@ -12,12 +12,11 @@ const Hero = () => {
     <section className="bg-black h-screen relative h-[calc(100vh*1.1)] flex-col items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 bg-scroll md:bg-fixed"
         style={{
           backgroundImage: `linear-gradient(rgba(223, 243, 10, 0.05), rgba(24, 14, 12, 0.90)), url(${heroImage})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed'
+          backgroundPosition: 'center'
         }}
       />
       
