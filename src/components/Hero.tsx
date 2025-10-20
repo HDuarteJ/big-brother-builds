@@ -39,7 +39,7 @@ const Hero = () => {
 
   return (
     // A altura precisa ser um valor fixo para o scroll funcionar corretamente dentro da secção
-    <section className="bg-black h-screen relative flex-col items-center justify-center overflow-hidden">
+    <section className="bg-black h-[calc(100vh*1.1)] relative flex-col items-center justify-center overflow-hidden">
       {/* Imagem de Fundo com Overlay */}
       <div 
         ref={backgroundRef} // 4. Anexar a referência ao div de fundo
