@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           {/* Logo com Efeito Glassmorphism */}
           <div className="mb-8 inline-block">
-            <div className="bg-white/20 backdrop-blur-md rounded-2xl p-14 border border-white/40 shadow-2xl">
+            <div className="bg-white/20 backdrop-blur-md rounded-2xl border border-white/40 shadow-2xl p-6 md:p-8">
               <img 
                 src={logo} 
                 alt="Big Brother Contracting" 
