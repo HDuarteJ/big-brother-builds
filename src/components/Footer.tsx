@@ -23,8 +23,7 @@ const Footer = () => {
               <li>Deck Building</li>
               <li>Commercial Projects</li>
             </ul>
-          </div>
-          
+          </div> 
           <div>
             <h4 className="font-heading text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-primary-foreground/80">
@@ -34,13 +33,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center space-x-6 pt-80 mb-8 text-primary-foreground/80 text-4xl">
-          <a href="https://www.instagram.com/bigbrothercontracting/" target="_blank" rel="noopener noreferrer">
-            <BsInstagram />
-          </a>
-          <a href="https://wa.me/14169032579" target="_blank" rel="noopener noreferrer">
-            <BsWhatsapp />
-          </a>
+        <div className="flex items-center justify-center space-x-6 pt-80 mb-8 text-primary-foreground/80 text-4xl">
+              <a href="https://www.instagram.com/bigbrothercontracting/" target="_blank" rel="noopener noreferrer">
+                <BsInstagram />
+              </a>
+              <a href="https://wa.me/14169032579" target="_blank" rel="noopener noreferrer">
+                <BsWhatsapp />
+              </a>
         </div>
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60">
           <p>&copy; {new Date().getFullYear()} Big Brother Contracting. All rights reserved.</p>
