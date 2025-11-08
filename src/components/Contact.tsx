@@ -6,7 +6,6 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 
-
 const Contact = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
@@ -54,8 +53,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-primary mb-1">Phone</h3>
-                  <a href="tel:+1 (416) 903-2579" className="text-muted-foreground hover:text-accent transition-colors">
-                    +1 (416) 903-2579
+                  <a href="tel:+1234567890" className="text-muted-foreground hover:text-accent transition-colors">
+                    (123) 456-7890
                   </a>
                 </div>
               </CardContent>
@@ -83,7 +82,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-heading font-bold text-primary mb-1">Location</h3>
                   <p className="text-muted-foreground">
-                    Serving The Whole Ontario Province
+                    Serving the Greater Area
                   </p>
                 </div>
               </CardContent>
